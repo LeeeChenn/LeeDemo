@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1929172C0DA38400FE09C8 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1929162C0DA38400FE09C8 /* DragGestureView.swift */; };
+		8D1929192C0DA6AF00FE09C8 /* AdvancedGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1929182C0DA6AF00FE09C8 /* AdvancedGestureView.swift */; };
+		8D19291B2C0DAED700FE09C8 /* PriorGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19291A2C0DAED700FE09C8 /* PriorGestureView.swift */; };
+		8D19291E2C0DB81900FE09C8 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19291D2C0DB81900FE09C8 /* ImageTransition.swift */; };
+		8D1929202C0DBD7200FE09C8 /* AnimatedRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D19291F2C0DBD7200FE09C8 /* AnimatedRotate.swift */; };
+		8D1929222C0DBE1D00FE09C8 /* ImageTransitionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1929212C0DBE1D00FE09C8 /* ImageTransitionTwo.swift */; };
+		8D1929242C0DBEC800FE09C8 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1929232C0DBEC800FE09C8 /* PlayButton.swift */; };
+		8D1929262C0DC22500FE09C8 /* AnimatedCardFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1929252C0DC22500FE09C8 /* AnimatedCardFlip.swift */; };
+		8D1929282C0DC5F600FE09C8 /* AnimatedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1929272C0DC5F600FE09C8 /* AnimatedProgressView.swift */; };
+		8D26FDA62C0D70FC00D3C728 /* LongPressGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D26FDA52C0D70FC00D3C728 /* LongPressGestureView.swift */; };
+		8D26FDA82C0D721D00D3C728 /* TagGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D26FDA72C0D721D00D3C728 /* TagGestureView.swift */; };
+		8D26FDAA2C0D8DEC00D3C728 /* MagnificationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D26FDA92C0D8DEC00D3C728 /* MagnificationGestureView.swift */; };
+		8D26FDAC2C0D913200D3C728 /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D26FDAB2C0D913200D3C728 /* RotationGestureView.swift */; };
+		8D4B4D6D2C047E080032B0B9 /* HierarchyRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B4D6C2C047E080032B0B9 /* HierarchyRelatedView.swift */; };
+		8D4B4D6F2C0571EE0032B0B9 /* ShapeRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B4D6E2C0571EE0032B0B9 /* ShapeRelatedViews.swift */; };
+		8D4B4D712C05C0710032B0B9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B4D702C05C0710032B0B9 /* CardView.swift */; };
+		8D4B4D732C05DC5E0032B0B9 /* ContentsRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B4D722C05DC5E0032B0B9 /* ContentsRelatedViews.swift */; };
+		8D6681342C08A3B9007F5AAB /* FZKai-Z03S.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D6681332C08A3B9007F5AAB /* FZKai-Z03S.ttf */; };
+		8D6681352C08A3B9007F5AAB /* FZKai-Z03S.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D6681332C08A3B9007F5AAB /* FZKai-Z03S.ttf */; };
+		8D6681362C08A3B9007F5AAB /* FZKai-Z03S.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D6681332C08A3B9007F5AAB /* FZKai-Z03S.ttf */; };
+		8D6681392C08A4D6007F5AAB /* TextRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6681382C08A4D6007F5AAB /* TextRelatedModifiers.swift */; };
+		8D66813A2C08A4D6007F5AAB /* TextRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6681382C08A4D6007F5AAB /* TextRelatedModifiers.swift */; };
+		8D66813B2C08A4D6007F5AAB /* TextRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6681382C08A4D6007F5AAB /* TextRelatedModifiers.swift */; };
 		8D6C341F2BF30A47004B94A3 /* LeeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C341E2BF30A47004B94A3 /* LeeDemoApp.swift */; };
 		8D6C34212BF30A47004B94A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C34202BF30A47004B94A3 /* ContentView.swift */; };
 		8D6C34232BF30A48004B94A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6C34222BF30A48004B94A3 /* Assets.xcassets */; };
@@ -14,6 +37,11 @@
 		8D6C34312BF30A48004B94A3 /* LeeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C34302BF30A48004B94A3 /* LeeDemoTests.swift */; };
 		8D6C343B2BF30A48004B94A3 /* LeeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C343A2BF30A48004B94A3 /* LeeDemoUITests.swift */; };
 		8D6C343D2BF30A48004B94A3 /* LeeDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C343C2BF30A48004B94A3 /* LeeDemoUITestsLaunchTests.swift */; };
+		8D70F8292C006C2200E9E23E /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70F8282C006C2200E9E23E /* StackView.swift */; };
+		8D70F82B2C008A1E00E9E23E /* ControlRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70F82A2C008A1E00E9E23E /* ControlRelatedView.swift */; };
+		8D88D28A2C0AD4CD00F02982 /* LayoutRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88D2892C0AD4CD00F02982 /* LayoutRelatedModifiers.swift */; };
+		8D88D28C2C0B10FB00F02982 /* ImageRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88D28B2C0B10FB00F02982 /* ImageRelatedModifiers.swift */; };
+		8D88D28E2C0D55FA00F02982 /* EffectRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88D28D2C0D55FA00F02982 /* EffectRelatedModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +62,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D1929162C0DA38400FE09C8 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		8D1929182C0DA6AF00FE09C8 /* AdvancedGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedGestureView.swift; sourceTree = "<group>"; };
+		8D19291A2C0DAED700FE09C8 /* PriorGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorGestureView.swift; sourceTree = "<group>"; };
+		8D19291D2C0DB81900FE09C8 /* ImageTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		8D19291F2C0DBD7200FE09C8 /* AnimatedRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedRotate.swift; sourceTree = "<group>"; };
+		8D1929212C0DBE1D00FE09C8 /* ImageTransitionTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransitionTwo.swift; sourceTree = "<group>"; };
+		8D1929232C0DBEC800FE09C8 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		8D1929252C0DC22500FE09C8 /* AnimatedCardFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCardFlip.swift; sourceTree = "<group>"; };
+		8D1929272C0DC5F600FE09C8 /* AnimatedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedProgressView.swift; sourceTree = "<group>"; };
+		8D26FDA52C0D70FC00D3C728 /* LongPressGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureView.swift; sourceTree = "<group>"; };
+		8D26FDA72C0D721D00D3C728 /* TagGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagGestureView.swift; sourceTree = "<group>"; };
+		8D26FDA92C0D8DEC00D3C728 /* MagnificationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureView.swift; sourceTree = "<group>"; };
+		8D26FDAB2C0D913200D3C728 /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
+		8D4B4D6C2C047E080032B0B9 /* HierarchyRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyRelatedView.swift; sourceTree = "<group>"; };
+		8D4B4D6E2C0571EE0032B0B9 /* ShapeRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRelatedViews.swift; sourceTree = "<group>"; };
+		8D4B4D702C05C0710032B0B9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8D4B4D722C05DC5E0032B0B9 /* ContentsRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsRelatedViews.swift; sourceTree = "<group>"; };
+		8D6681332C08A3B9007F5AAB /* FZKai-Z03S.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZKai-Z03S.ttf"; sourceTree = "<group>"; };
+		8D6681382C08A4D6007F5AAB /* TextRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRelatedModifiers.swift; sourceTree = "<group>"; };
 		8D6C341B2BF30A47004B94A3 /* LeeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6C341E2BF30A47004B94A3 /* LeeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeDemoApp.swift; sourceTree = "<group>"; };
 		8D6C34202BF30A47004B94A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +92,11 @@
 		8D6C34362BF30A48004B94A3 /* LeeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6C343A2BF30A48004B94A3 /* LeeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeDemoUITests.swift; sourceTree = "<group>"; };
 		8D6C343C2BF30A48004B94A3 /* LeeDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D70F8282C006C2200E9E23E /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		8D70F82A2C008A1E00E9E23E /* ControlRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRelatedView.swift; sourceTree = "<group>"; };
+		8D88D2892C0AD4CD00F02982 /* LayoutRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutRelatedModifiers.swift; sourceTree = "<group>"; };
+		8D88D28B2C0B10FB00F02982 /* ImageRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRelatedModifiers.swift; sourceTree = "<group>"; };
+		8D88D28D2C0D55FA00F02982 /* EffectRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectRelatedModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +124,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D19291C2C0DB79300FE09C8 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				8D19291D2C0DB81900FE09C8 /* ImageTransition.swift */,
+				8D19291F2C0DBD7200FE09C8 /* AnimatedRotate.swift */,
+				8D1929212C0DBE1D00FE09C8 /* ImageTransitionTwo.swift */,
+				8D1929232C0DBEC800FE09C8 /* PlayButton.swift */,
+				8D1929252C0DC22500FE09C8 /* AnimatedCardFlip.swift */,
+				8D1929272C0DC5F600FE09C8 /* AnimatedProgressView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		8D2851902C0D7084000E9070 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				8D26FDA52C0D70FC00D3C728 /* LongPressGestureView.swift */,
+				8D26FDA72C0D721D00D3C728 /* TagGestureView.swift */,
+				8D26FDA92C0D8DEC00D3C728 /* MagnificationGestureView.swift */,
+				8D26FDAB2C0D913200D3C728 /* RotationGestureView.swift */,
+				8D1929162C0DA38400FE09C8 /* DragGestureView.swift */,
+				8D1929182C0DA6AF00FE09C8 /* AdvancedGestureView.swift */,
+				8D19291A2C0DAED700FE09C8 /* PriorGestureView.swift */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		8D6681372C08A4B7007F5AAB /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8D2851902C0D7084000E9070 /* Gesture */,
+				8D6681382C08A4D6007F5AAB /* TextRelatedModifiers.swift */,
+				8D88D2892C0AD4CD00F02982 /* LayoutRelatedModifiers.swift */,
+				8D88D28B2C0B10FB00F02982 /* ImageRelatedModifiers.swift */,
+				8D88D28D2C0D55FA00F02982 /* EffectRelatedModifiers.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		8D6C34122BF30A46004B94A3 = {
 			isa = PBXGroup;
 			children = (
@@ -95,10 +186,19 @@
 		8D6C341D2BF30A47004B94A3 /* LeeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8D19291C2C0DB79300FE09C8 /* Animations */,
+				8D6681372C08A4B7007F5AAB /* Modifiers */,
 				8D6C341E2BF30A47004B94A3 /* LeeDemoApp.swift */,
 				8D6C34202BF30A47004B94A3 /* ContentView.swift */,
+				8D70F8282C006C2200E9E23E /* StackView.swift */,
+				8D70F82A2C008A1E00E9E23E /* ControlRelatedView.swift */,
+				8D4B4D6C2C047E080032B0B9 /* HierarchyRelatedView.swift */,
+				8D4B4D6E2C0571EE0032B0B9 /* ShapeRelatedViews.swift */,
+				8D4B4D702C05C0710032B0B9 /* CardView.swift */,
+				8D4B4D722C05DC5E0032B0B9 /* ContentsRelatedViews.swift */,
 				8D6C34222BF30A48004B94A3 /* Assets.xcassets */,
 				8D6C34242BF30A48004B94A3 /* LeeDemo.entitlements */,
+				8D6681332C08A3B9007F5AAB /* FZKai-Z03S.ttf */,
 				8D6C34252BF30A48004B94A3 /* Preview Content */,
 			);
 			path = LeeDemo;
@@ -233,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6681342C08A3B9007F5AAB /* FZKai-Z03S.ttf in Resources */,
 				8D6C34272BF30A48004B94A3 /* Preview Assets.xcassets in Resources */,
 				8D6C34232BF30A48004B94A3 /* Assets.xcassets in Resources */,
 			);
@@ -242,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6681352C08A3B9007F5AAB /* FZKai-Z03S.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6681362C08A3B9007F5AAB /* FZKai-Z03S.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +362,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6681392C08A4D6007F5AAB /* TextRelatedModifiers.swift in Sources */,
+				8D1929282C0DC5F600FE09C8 /* AnimatedProgressView.swift in Sources */,
+				8D1929242C0DBEC800FE09C8 /* PlayButton.swift in Sources */,
+				8D1929222C0DBE1D00FE09C8 /* ImageTransitionTwo.swift in Sources */,
+				8D4B4D712C05C0710032B0B9 /* CardView.swift in Sources */,
+				8D70F82B2C008A1E00E9E23E /* ControlRelatedView.swift in Sources */,
+				8D19291B2C0DAED700FE09C8 /* PriorGestureView.swift in Sources */,
+				8D4B4D732C05DC5E0032B0B9 /* ContentsRelatedViews.swift in Sources */,
+				8D26FDA62C0D70FC00D3C728 /* LongPressGestureView.swift in Sources */,
+				8D1929202C0DBD7200FE09C8 /* AnimatedRotate.swift in Sources */,
+				8D1929262C0DC22500FE09C8 /* AnimatedCardFlip.swift in Sources */,
+				8D19291E2C0DB81900FE09C8 /* ImageTransition.swift in Sources */,
 				8D6C34212BF30A47004B94A3 /* ContentView.swift in Sources */,
+				8D4B4D6D2C047E080032B0B9 /* HierarchyRelatedView.swift in Sources */,
+				8D26FDAA2C0D8DEC00D3C728 /* MagnificationGestureView.swift in Sources */,
+				8D26FDA82C0D721D00D3C728 /* TagGestureView.swift in Sources */,
+				8D70F8292C006C2200E9E23E /* StackView.swift in Sources */,
+				8D1929192C0DA6AF00FE09C8 /* AdvancedGestureView.swift in Sources */,
+				8D88D28C2C0B10FB00F02982 /* ImageRelatedModifiers.swift in Sources */,
+				8D4B4D6F2C0571EE0032B0B9 /* ShapeRelatedViews.swift in Sources */,
+				8D88D28A2C0AD4CD00F02982 /* LayoutRelatedModifiers.swift in Sources */,
 				8D6C341F2BF30A47004B94A3 /* LeeDemoApp.swift in Sources */,
+				8D26FDAC2C0D913200D3C728 /* RotationGestureView.swift in Sources */,
+				8D88D28E2C0D55FA00F02982 /* EffectRelatedModifiers.swift in Sources */,
+				8D1929172C0DA38400FE09C8 /* DragGestureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D6C34312BF30A48004B94A3 /* LeeDemoTests.swift in Sources */,
+				8D66813A2C08A4D6007F5AAB /* TextRelatedModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D66813B2C08A4D6007F5AAB /* TextRelatedModifiers.swift in Sources */,
 				8D6C343D2BF30A48004B94A3 /* LeeDemoUITestsLaunchTests.swift in Sources */,
 				8D6C343B2BF30A48004B94A3 /* LeeDemoUITests.swift in Sources */,
 			);
@@ -424,6 +552,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeeDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -462,6 +592,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeeDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
